@@ -1,0 +1,16 @@
+{
+  "name": "stylesheet_analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-spec": "node specificity_calculator.js",
+    "css-cls": "node get_all_classes.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "specificity": "git+https://github.com/keeganstreet/specificity.git"
+  }
+}
